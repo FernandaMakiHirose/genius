@@ -1,0 +1,53 @@
+body {
+    margin: 0; /*margem*/
+    background-image: url(img/plano-de-fundo.jpg);
+    background-size: cover;
+}
+
+.main-game {
+    height: 100vh; /*altura*/
+    width: 100vw; /*largura*/
+    display: flex; /*torna seus filhos em flex itens*/
+    justify-content: center; /*o conteúdo fica no centro*/
+    align-items: center; /*alinha os itens no centro*/
+}
+
+.genius {
+    display: grid; /*o conteúdo vai ficar em grid*/
+    grid-template-areas: 'verde vermelho' /*criando as grids*/
+    'amarelo azul';
+    grid-gap: 10px; /*a distância de cada grid*/
+    border: 1px solid #ffffff; /*borda*/
+    background-color: #ffffff; /*cor de fundp*/
+    border-radius: 100%; /*borda arredondada*/
+    width: 450px; /*largura*/
+    height: 450px; /*altura*/
+}
+
+.blue {
+    grid-area: azul; 
+    background-color: blue;
+    border-bottom-right-radius: 100%;
+}
+
+.red {
+    grid-area: vermelho;
+    background-color: red;
+    border-top-right-radius: 100%;
+}
+
+.yellow {
+    grid-area: amarelo;
+    background-color: yellow;
+    border-bottom-left-radius: 100%;
+}
+
+.green {
+    grid-area: verde;
+    background-color: green;
+    border-top-left-radius: 100%;
+}
+
+.selected {
+    opacity: 0.8;
+}
