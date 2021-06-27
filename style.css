@@ -49,5 +49,5 @@ body {
 }
 
 .selected {
-    opacity: 0.8;
+    stop-opacity: inherit;
 }
