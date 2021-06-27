@@ -1,5 +1,6 @@
 # Jogo genius
-O Genius lançado em 1980 pela Estrela foi o primeiro jogo eletrônico vendido no Brasil, sendo a versão do Simon, do fabricante americano Hasbro. Memorize a sequência de cores que aparecem e repita apertando os botões logo em seguida. É a chance que você tem de mostrar que é bom de memória e velocidade não é um problema para você!
+O Genius lançado em 1980 pela Estrela foi o primeiro jogo eletrônico vendido no Brasil, sendo a versão do Simon, do fabricante americano Hasbro. Memorize a sequência de cores que aparecem e repita apertando os botões logo em seguida. É a chance que você tem de mostrar que é bom de memória e velocidade não é um problema para você! <br>
+Link do site: https://fernandamakihirose.github.io/jogo-genius/ 
 
 ## Sobre a Autora
 Oi, eu sou a Fernanda! Estou aqui para contribuir com meu conhecimento e espero poder ajudar no desenvolvimento profissional de cada um de vocês.
