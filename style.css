@@ -1,31 +1,30 @@
 body {
-    margin: 0; /*margem*/
-    background-image: url(img/plano-de-fundo.jpg);
-    background-size: cover;
+    margin: 0;
+    background-color: rgb(208, 255, 239);
 }
 
 .main-game {
-    height: 100vh; /*altura*/
-    width: 100vw; /*largura*/
-    display: flex; /*torna seus filhos em flex itens*/
-    justify-content: center; /*o conteúdo fica no centro*/
-    align-items: center; /*alinha os itens no centro*/
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .genius {
-    display: grid; /*o conteúdo vai ficar em grid*/
-    grid-template-areas: 'verde vermelho' /*criando as grids*/
+    display: grid;
+    grid-template-areas: 'verde vermelho'
     'amarelo azul';
-    grid-gap: 10px; /*a distância de cada grid*/
-    border: 1px solid #ffffff; /*borda*/
-    background-color: #ffffff; /*cor de fundp*/
-    border-radius: 100%; /*borda arredondada*/
-    width: 450px; /*largura*/
-    height: 450px; /*altura*/
+    grid-gap: 10px;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    border-radius: 100%;
+    width: 500px;
+    height: 500px;
 }
 
 .blue {
-    grid-area: azul; 
+    grid-area: azul;
     background-color: blue;
     border-bottom-right-radius: 100%;
 }
@@ -49,5 +48,5 @@ body {
 }
 
 .selected {
-    opacity: 1000000000.0;
+    opacity: 0.4;
 }

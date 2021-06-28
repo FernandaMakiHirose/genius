@@ -14,11 +14,10 @@ const yellow = document.querySelector('.yellow');
 
 //cria ordem aletoria de cores
 let shuffleOrder = () => {
-    let colorOrder = Math.floor(Math.random() * 4); //variável guarda o número sorteado, o número é arredondado e é sempre multiplicado por 4
-    order[order.length] = colorOrder; //vai atribuir o índice do array com a cor
+    let colorOrder = Math.floor(Math.random() * 4);
+    order[order.length] = colorOrder;
     clickedOrder = [];
 
-    // vai ascender a cor
     for(let i in order) {
         let elementColor = createColorElement(order[i]);
         lightColor(elementColor, Number(i) + 1);
@@ -44,8 +43,6 @@ let checkOrder = () => {
             break;
         }
     }
-
-    // se os cliques forem iguais vai para o próximo nível
     if(clickedOrder.length == order.length) {
         alert(`Pontuação: ${score}\nVocê acertou! Iniciando próximo nível!`);
         nextLevel();
@@ -93,7 +90,7 @@ let gameOver = () => {
 
 //funcao de inicio do jogo
 let playGame = () => {
-    alert('Começando o jogo Gênesis!');
+    alert('Bem vindo ao Gênesis! Iniciando novo jogo!');
     score = 0;
 
     nextLevel();
